@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/totalDkp/static/css/main.7c11ca89.chunk.css",
-    "main.js": "/totalDkp/static/js/main.99eb3fed.chunk.js",
-    "main.js.map": "/totalDkp/static/js/main.99eb3fed.chunk.js.map",
+    "main.css": "/totalDkp/static/css/main.87d9f554.chunk.css",
+    "main.js": "/totalDkp/static/js/main.b2994dfe.chunk.js",
+    "main.js.map": "/totalDkp/static/js/main.b2994dfe.chunk.js.map",
     "runtime-main.js": "/totalDkp/static/js/runtime-main.3b9fabae.js",
     "runtime-main.js.map": "/totalDkp/static/js/runtime-main.3b9fabae.js.map",
     "static/js/2.3202383e.chunk.js": "/totalDkp/static/js/2.3202383e.chunk.js",
     "static/js/2.3202383e.chunk.js.map": "/totalDkp/static/js/2.3202383e.chunk.js.map",
     "index.html": "/totalDkp/index.html",
-    "static/css/main.7c11ca89.chunk.css.map": "/totalDkp/static/css/main.7c11ca89.chunk.css.map",
+    "static/css/main.87d9f554.chunk.css.map": "/totalDkp/static/css/main.87d9f554.chunk.css.map",
     "static/js/2.3202383e.chunk.js.LICENSE.txt": "/totalDkp/static/js/2.3202383e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3b9fabae.js",
     "static/js/2.3202383e.chunk.js",
-    "static/css/main.7c11ca89.chunk.css",
-    "static/js/main.99eb3fed.chunk.js"
+    "static/css/main.87d9f554.chunk.css",
+    "static/js/main.b2994dfe.chunk.js"
   ]
 }
