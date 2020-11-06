@@ -1,0 +1,14 @@
+.character {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+TextField {
+    flex-grow: 1;
+    margin-right: 60px;
+}
+
+FormControl {
+    flex-grow: 1;
+}
