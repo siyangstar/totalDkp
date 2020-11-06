@@ -27,8 +27,9 @@ class Home extends Component {
         const t1 = char.dkp_lifetime_1 ? char.dkp_lifetime_1 : 0;
         const t2 = char.dkp_lifetime_3 ? char.dkp_lifetime_3 : 0;
         const t25 = char.dkp_lifetime_4 ? char.dkp_lifetime_4 : 0;
+        const t3 = char.dkp_lifetime_5 ? char.dkp_lifetime_5 : 0;
         const charLevel = this.state.level[`char${index + 1}`] ? this.state.level[`char${index + 1}`] : 0;
-        const total = (t1 + t2 * 2 + t25 * 2.5) * charLevel;
+        const total = (t1 + t2 * 2 + t25 * 2.5 + t3 * 3) * charLevel;
         result +=
           document.getElementById(`char${index + 1}`).value +
           "  (会阶系数：" +
@@ -40,7 +41,9 @@ class Home extends Component {
           t2 +
           "   T2.5: " +
           t25 +
-          "\n总计: T1 + T2 x 2  + T2.5 x 2.5 = " +
+          "   T3: " +
+          t3 +
+          "\n总计: T1 + T2*2  + T2.5*2.5 + T3*3 = " +
           total +
           "\n\n";
         charTotal += total;
