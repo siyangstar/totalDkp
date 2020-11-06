@@ -63,10 +63,10 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>DKP总获取</h1>
         <h6>数据截止到2020-11-3中午。</h6>
-        <div>
+        <div className="inner">
           <Character uid="char1" handleChange={this.handleChange} />
           <Character uid="char2" handleChange={this.handleChange} />
           <Character uid="char3" handleChange={this.handleChange} />

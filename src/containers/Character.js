@@ -10,11 +10,8 @@ import "./Character.css";
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
-    minWidth: 120,
+    minWidth: 100,
   },
-  selectEmpty: {
-    marginTop: theme.spacing(2),
-  }
 }));
 
 const Character = ({ uid, handleChange }) => {
