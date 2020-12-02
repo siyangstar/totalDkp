@@ -68,7 +68,7 @@ class Home extends Component {
     return (
       <div className="container">
         <h1>DKP总获取</h1>
-        <h6>数据截止到2020-11-30中午。</h6>
+        <h6>数据截止到2020-12-2中午。</h6>
         <div className="inner">
           <Character uid="char1" handleChange={this.handleChange} />
           <Character uid="char2" handleChange={this.handleChange} />
